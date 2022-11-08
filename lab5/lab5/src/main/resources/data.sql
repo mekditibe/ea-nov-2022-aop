@@ -1,0 +1,6 @@
+INSERT INTO address (street,zip,city) VALUES ('1000 N 4th Street','4552','Fairfield')
+INSERT INTO user_table (email, first_name, lastname, password, address_id) VALUES ('user1email', 'user1', 'user1LastName', 'pass', 1 )
+INSERT INTO category (name) VALUES ('dairy')
+INSERT INTO product (name, price, rating, category_id) VALUES ('milk', 22,3.4, 1)
+INSERT INTO review (comment,product_id,user_id) VALUES ('no comment', 1,1)
+-- INSERT INTO activity_log(data,duration,operation,category_id,product_id)  VALUES ('20-02-2022','2','no opp comment', 1,1)
